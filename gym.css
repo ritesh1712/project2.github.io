@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(43, 39, 39);
+}
 
-header::before {
+/* header::before {
     display: flex;
     content: "";
     background: url(img/gym.jpg) no-repeat center center/cover;
@@ -11,7 +14,7 @@ header::before {
     width: 100%;
     height: 100%;
     z-index: -1;
-}
+} */
 
 .navigation {
     display: flex;
@@ -22,7 +25,7 @@ header::before {
 }
 
 li a {
-    margin: 1rem;
+    margin: .2rem;
     padding: .5rem;
     text-decoration: none;
     color: white;
@@ -78,7 +81,7 @@ p {
     color: rgb(68, 213, 232);
 }
 .cantant{
-    margin-top: 13rem;
+    /* margin-top: 13rem; */
     background-color: rgb(43, 39, 39);
     display: flex;   
     width: 100%;
