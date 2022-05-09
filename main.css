@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+body{
+    background-color: rgb(212, 205, 205);
+    
+
+}
+
+/* logo */
+#navbar img{
+    border-radius: 40px;
+    height: 4rem;
+    margin: .8rem;
+    border: 2px solid black;
+}
+
+#navbar{
+    display: flex;
+    position: relative;
+}
+#navbar::before{
+    background-color: rgb(65 151 185);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 1.2rem;
+    font-size: 1.4rem;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+
+}
+
+li a:hover{
+    font-size: 2rem;
+    /* color: red; */
+    background-color: rgb(114, 253, 216);
+    border-radius: 20px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    
+}
+button{
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 5px #7a3535;
+    padding: .6rem;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(114, 253, 216);
+    font-size: 1.3rem;
+
+}
+
+button:active{
+    background-color: rgb(114, 253, 216);
+    font-size: 1.3rem;
+transform: translateY(4px);
+box-shadow: 0 0 black;
+}
+
+#home::before{
+    background: url(img2/bg.jpg) no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 200px;
+    margin-top: 80px;    
+}
+h1{
+font-size: 3rem;
+font-family: 'Indie Flower', cursive;
+font-weight: bold;
+}
+
+p{
+font-size: 1.5rem;
+font-family: 'Indie Flower', cursive;
+font-weight: bold;
+}
+
+#foods{
+    padding-left: 11rem;
+    padding-right: 11rem;
+    padding-top: 11rem;
+    align-items: center;
+}
+#foods h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 2rem; */
+}
+
+.foods{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.foods img{
+    width: 250px;
+    height: 250px;
+    border: 4px solid black;   
+}
+
+#item{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color:  #fadede;
+    border-radius: 25px;
+    box-shadow: 3px 5px #7a3535;
+    margin: 2rem;
+
+}
+#foods p{
+    padding-top: 2rem;    
+}
+
+#service h1{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    
+}
+#service{
+    display: flex;
+    flex-direction: column;
+}
+.service img{
+    display: flex;
+    height: 300px;
+    margin: auto;
+}
+.service p{
+    width: 700px;
+    margin: auto;   
+}
+.service h1{
+    font-size: 2.3rem;
+}
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}  
+
+
+
+#contact .item{
+    margin-bottom: 1.5rem;
+    font-family: 'Indie Flower', cursive;
+font-weight: bold;
+font-size: 1.3rem;
+}
+
+#contact input{
+    
+    font-family: 'Indie Flower', cursive;
+font-weight: bold;
+font-size: 1.3rem;
+border: 2px solid black;
+box-shadow: 1px 5px #7a3535;
+outline: none;
+
+}
+
+#contact textarea{
+    box-shadow: 3px 5px #7a3535;
+    font-family: 'Indie Flower', cursive;
+font-weight: bold;
+font-size: 1.3rem;
+border: 2px solid black;
+outline: none;
+
+}
+#contact::before{
+    background: url(img2/contact.jpg) no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin: 25px;
+    color: white;
+    
+}

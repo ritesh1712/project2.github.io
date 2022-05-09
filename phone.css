@@ -1,0 +1,52 @@
+
+#navbar::before{
+    width: 70rem;    
+}
+#home{
+    height: 300px;
+    width: 50rem;   
+    padding: 3px 150px;
+}
+#home::before{
+    height: 750px;
+    width: 70rem;    
+}
+button{
+    width: 130px;
+}
+#foods h1{   
+    padding-left: 20rem; 
+    padding-top: 5rem;
+}
+#item{
+    width: 40rem;
+}
+#item h1{
+    padding-left: 3rem; 
+}
+#service{
+    margin-left: 18rem;
+}
+.service h1{
+    width: 250px;
+}
+
+
+
+#contact::before{
+   width: 70rem;
+}
+#contact{
+    margin-left: 25rem;
+}
+@media (max-width:735px){
+    #contact{
+        margin-left: 35rem;
+    }  
+}
+
+footer{
+    width: 70rem;
+    margin-left: 0px;
+    margin-right: 0px;
+}
