@@ -5,8 +5,9 @@
 
 body{
     background-color: rgb(212, 205, 205);
-    
-
+}
+html{
+  scroll-behavior: smooth;
 }
 
 /* logo */
